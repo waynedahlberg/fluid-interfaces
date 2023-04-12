@@ -11,6 +11,8 @@
 		B023C378280BAB37004C1FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B023C377280BAB37004C1FDA /* ContentView.swift */; };
 		B023C37A280BAB38004C1FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B023C379280BAB38004C1FDA /* Assets.xcassets */; };
 		B023C37D280BAB38004C1FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B023C37C280BAB38004C1FDA /* Preview Assets.xcassets */; };
+		B023C385280BAEE4004C1FDA /* CalculatorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B023C384280BAEE4004C1FDA /* CalculatorButtonView.swift */; };
+		B0FAE932297149930039B1D9 /* FacetimePipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAE931297149930039B1D9 /* FacetimePipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		B023C377280BAB37004C1FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B023C379280BAB38004C1FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B023C37C280BAB38004C1FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B023C384280BAEE4004C1FDA /* CalculatorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonView.swift; sourceTree = "<group>"; };
+		B0FAE931297149930039B1D9 /* FacetimePipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetimePipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				B023C375280BAB37004C1FDA /* Fluid_SwiftUI_InterfacesApp.swift */,
 				B023C377280BAB37004C1FDA /* ContentView.swift */,
+				B023C383280BAEBC004C1FDA /* Views */,
 				B023C379280BAB38004C1FDA /* Assets.xcassets */,
 				B023C37B280BAB38004C1FDA /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				B023C37C280BAB38004C1FDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B023C383280BAEBC004C1FDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B023C384280BAEE4004C1FDA /* CalculatorButtonView.swift */,
+				B0FAE931297149930039B1D9 /* FacetimePipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B023C378280BAB37004C1FDA /* ContentView.swift in Sources */,
+				B023C385280BAEE4004C1FDA /* CalculatorButtonView.swift in Sources */,
+				B0FAE932297149930039B1D9 /* FacetimePipView.swift in Sources */,
 				B023C376280BAB37004C1FDA /* Fluid_SwiftUI_InterfacesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
